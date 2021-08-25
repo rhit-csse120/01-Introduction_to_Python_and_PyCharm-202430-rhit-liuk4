@@ -43,8 +43,8 @@ print("Hello, World")
 #        Try it now on line 18 above, and note that its blue bar on the
 #        scrollbar-like thing to the right goes away soon thereafter.
 #  _
-#   If you change each _TODO_ to DONE like this, you can tell when you
-#   have finished all the exercises in a module -- there will be no blue bars
+#   If you change each _TODO_ to DONE like this, you can tell when you have
+#   finished all the exercises in a module -- there will be no blue bars
 #   remaining on the scrollbar-like thing to the right.
 #  _
 #   You have now completed _TODO_ #2, so change its _TODO_ on line 32 to DONE.
@@ -85,26 +85,29 @@ print("Hello, World")
 #  _
 #   COMMIT and PUSH your work by:
 #     1. Select   Git      from the menu bar (above).
-#     2. Choose   Commit   from the pull-down menu that appears.
-#     3a. In the   Commit   window that pops up:
-#        - Type a short message in the box where you can type,
-#             e.g. type:    Done.
-#          It truly does not matter what message you put (but it WILL matter
-#          when you work with teammates later in the course). Subsequent
-#          commits will auto-apply whatever message you use this time.
-#     3b:  In that same   Commit   window that pops up:
-#        - Press the   Commit and Push   button.
+#     2. Choose   Commit...   from the pull-down menu that appears.
+#     3a. In the   Commit to master   window that pops up:
+#           - Type a short message in the box where you can type,
+#                e.g. type:    Done.
+#  _
+#           It does not matter what message you put (but it WILL matter
+#           when you work with teammates later in the course). Subsequent
+#           commits will auto-apply whatever message you use this time.
+#  _
+#     3b: In that same   Commit to master   window that pops up:
+#           - Press the   Commit and Push...   button.
 #  _
 #   COMMIT adds the changed work to the version control system on your COMPUTER.
-#   PUSH adds the changed work into your repository in the "cloud".
+#   PUSH adds the changed work to your repository in the "cloud".
 #  _
 #   Always PUSH (in addition to the COMMIT) so that your work
 #   is backed-up in the cloud.  If you COMMIT but forget to PUSH,
-#   you can subsequently do the PUSH by:   Git ~ Push ...
+#   you can subsequently do the PUSH by:   Git ~ Push...
 #  _
 #   Oh, one more thing:
 #     Do you have any blue bars on the scrollbar-like thing to the right?
 #     If so, click on each blue bar and change its associated _TODO_ to DONE
+#     (assuming that you did that _TODO_, if not do it now!)
 #     and then re-run the module (to make sure you did not break anything)
 #     and COMMIT-and-PUSH again.
 #  _
