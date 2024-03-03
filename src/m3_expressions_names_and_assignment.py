@@ -1,8 +1,10 @@
+import math
+
 answer = 2 ** 5
 print(answer * 100)
 
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   Read the 2 lines of code ABOVE this _TODO_.
 #   When the Python INTERPRETER runs, that is, when this program runs,
 #   it does the following with that code:
@@ -35,7 +37,7 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Some things, like addition (+) and subtraction (-), are built into
 #   Python.  Others are defined in modules (aka libraries) that must be
 #   IMPORTED into your program for you to use them.  The trigonometric functions
@@ -70,13 +72,19 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
+val1 = 77 + math.cos(2.75)
+print("\nRoots. A tall white fountain played " + str(math.sqrt(val1)))
+
 ###############################################################################
-# TODO: 3.
+# DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
+
+val2 = math.sqrt((41*88)+(4*math.cos(2)))
+print(str(val2) + " a tall white fountain played.\n")
 
 ###############################################################################
 # TODO: 4.
@@ -88,8 +96,11 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
+print("Do they trap you in a " + str(math.sqrt(2)) + "?")
+print(2**0.5)
+
 ###############################################################################
-# TODO: 5.
+# DONE: 5.
 #   Immediately below this _TODO_,
 #   write code that computes and prints:
 #     1. the base-10 logarithm of 1,000,000    (which is 6, as you know)
@@ -101,8 +112,12 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
+print("\n"+str(math.log(1000000)) +"?")
+print(math.log(1000000,2))
+print(str(math.log(1000000,3))+"\n")
+
 ###############################################################################
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #  _
@@ -117,3 +132,4 @@ print(answer * 100)
 #   You can COMMIT-and-PUSH as often as you like.
 #   DO IT FREQUENTLY; AT LEAST once per module.
 ###############################################################################
+print("You're not even close to baseline.")
