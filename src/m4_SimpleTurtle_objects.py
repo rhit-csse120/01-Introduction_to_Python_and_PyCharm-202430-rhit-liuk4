@@ -12,10 +12,10 @@ Also:
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
          Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
+         Kevin Liu.
 """
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #  _
 #   On Line 15 above, replace   PUT_YOUR_NAME_HERE   with your OWN name.

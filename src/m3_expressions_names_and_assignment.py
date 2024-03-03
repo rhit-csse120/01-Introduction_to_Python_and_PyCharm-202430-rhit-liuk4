@@ -87,7 +87,7 @@ val2 = math.sqrt((41*88)+(4*math.cos(2)))
 print(str(val2) + " a tall white fountain played.\n")
 
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     1. By using the   math.sqrt   function.
