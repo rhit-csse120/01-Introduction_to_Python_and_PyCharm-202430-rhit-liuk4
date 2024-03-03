@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 
 ###############################################################################
-# TODO: 1.  This is an EXAMPLE module (m1e_..., note the e).
+# DONE: 1.  This is an EXAMPLE module (m1e_..., note the e).
 #  For ALL example modules, throughout the course:
 #    a. RUN the example.
 #    b. READ the code (and accompanying comments), ASKING QUESTIONS

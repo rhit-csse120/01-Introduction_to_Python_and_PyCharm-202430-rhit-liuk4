@@ -4,15 +4,19 @@ An exercise that summarizes what you have learned in this Session.
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
          Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
+         Kevin Liu.
 """
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 7 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #  _
@@ -41,8 +45,25 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 #   As always, test by running the module.
 ###############################################################################
 
+bluePen = rg.SimpleTurtle("turtle")
+bluePen.pen = rg.Pen("blue", 1)
+bluePen.speed = 20
+
+bluePen.left(90)
+bluePen.forward(200)
+
+bluePen.pen_up()
+bluePen.backward(240)
+bluePen.right(90)
+bluePen.forward(100)
+
+bluePen.pen_down()
+bluePen.pen = rg.Pen("green", 10)
+bluePen.left(90)
+bluePen.backward(150)
+
 ###############################################################################
-# TODO: 3. After you have successfully written and tested code per the above
+# DONE: 3. After you have successfully written and tested code per the above
 #   (get help as needed!), be sure that you understand how to:
 #     -- CONSTRUCT an INSTANCE of a CLASS (we call such instances OBJECTS).
 #     -- Make an object   ** DO **   something by using a METHOD.
@@ -53,3 +74,10 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 #  _
 #   As always, COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+
+# -----------------------------------------------------------------------------
+# The next line keeps the window open until the user clicks in the window.
+# Whenever you are doing TurtleGraphics code, this  close_on_mouse_click   line
+# should be the LAST line in the module.  DO NOT ADD CODE BELOW THIS LINE!
+# -----------------------------------------------------------------------------
+window.close_on_mouse_click()
