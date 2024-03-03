@@ -4,15 +4,19 @@ Your chance to explore Loops and Turtles!
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
          Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
+         Kevin Liu.
 """
+
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 7 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #  _
@@ -33,3 +37,27 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 #  _
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+
+redPen = rg.SimpleTurtle("turtle")
+redPen.pen = rg.Pen("red", 5)
+redPen.speed = 100
+
+for k in range(10):
+    for i in range(8):
+        redPen.pen_down()
+        redPen.right(90)
+        redPen.forward(i*5)
+    redPen.pen_up()
+    redPen.left(45)
+    redPen.forward(5)
+    redPen.right(45)
+
+greenPen = rg.SimpleTurtle("turtle")
+greenPen.pen = rg.Pen("green", 15)
+greenPen.speed = 20
+
+for k in range(50):
+    greenPen.left(35)
+    greenPen.forward(k*5)
+
+window.close_on_mouse_click()
